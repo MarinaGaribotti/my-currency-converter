@@ -10,9 +10,9 @@ import './styles.css';
 // == Composant
 const App = () => (
   <div className="app">
-    <Header />
+    <Header baseAmount={12} />
     <Currencies />
-    <Result />
+    <Result value={1.09} currency="United States Dollar"/>
   </div>
 );
 
