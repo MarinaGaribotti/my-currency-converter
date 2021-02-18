@@ -5,11 +5,14 @@
   color: vars.$color-light;
   padding: vars.$gutter * 3;
   text-align: center;
+
   &-title {
     font-size: 2em;
   }
+
   &-amount {
     font-size: 1em;
     margin-top: vars.$gutter;
   }
+  
 }

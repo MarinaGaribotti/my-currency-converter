@@ -7,7 +7,10 @@ import './style.scss';
 
 // mon composant
 const Result = () => (
-  <div>Result</div>
+  <div className="result">
+    <p className="result-value">1.09</p>
+    <p className="result-currency">United States Dollar</p>
+  </div>
 );
 
 // export du composant pour qu'il soit accessible
