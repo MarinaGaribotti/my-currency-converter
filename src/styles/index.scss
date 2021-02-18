@@ -2,7 +2,10 @@
 @use 'vars';
 
 body {
-  font-family: sans-serif;
+  background-image: url(https://pixabay.com/get/g22e341cf349404c5724a9f258aa0d5d2e85d62391db0b8c90ed825ee190fc96b6f067dcd3a8b394106d4284b11ff35f1_1920.jpg);
+  background-size: cover;
+  font-family: vars.$font;
+  color: vars.$color-light;
 }
 
 /* 
